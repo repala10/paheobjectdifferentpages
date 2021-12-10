@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Regressions">
+    <classes>
+      <class name="com.tests.pageobjects.OrangeHRM"/>
+      <class name="com.test.locators.classname"/>
+      <class name="com.test.locators.Cssector"/>
+      <class name="com.test.locators.TestlocatorID"/>
+    </classes>
+  </test> <!-- Regressions -->
+</suite> <!-- Suite -->
